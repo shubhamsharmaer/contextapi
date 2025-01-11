@@ -1,0 +1,2 @@
+### Testing Counter State connect with components
+GET http://localhost:5173/
