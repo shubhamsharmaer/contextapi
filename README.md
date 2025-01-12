@@ -1,10 +1,17 @@
-# Context API Notes
+# Context API -  `Projects` | `Use` | `Notes`
 
-## What is Context API?
+## Learn by doing `Projects` 
+ - [Lev 1 : Counter App](/counter)
+ - [Lev 2 : Ecart App](/ecart)
+
+## Study `Notes` 
+ - [Counter App Notes](/counter/Counter%20Notes.md)
+ - [Ecart App Notes](/ecart/Ecart%20Notes.md)
+
+## What is `Context API`?
 - A React feature to share state across components without **prop drilling**.
 - Used for global state management.
 
----
 
 ## Key Concepts
 1. **Context Creation**:
@@ -32,9 +39,9 @@
      const { state, setState } = useContext(MyContext);
      ```
 
----
 
-## Steps to Use Context API
+
+## Steps to `Use` Context API
 1. **Create Context**:
    ```javascript
    export const MyContext = createContext(null);
