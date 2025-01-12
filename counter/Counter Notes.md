@@ -55,7 +55,7 @@ In this project, the Context API is used to manage a counter's state (`count`) g
 ## Good Practices in This Project
 
 1. **Separation of Concerns**:
-   - The context logic is placed in a separate file (`Countercontext.jsx`), ensuring modularity and reusability.
+   - The context logic is placed in the separate file (`Countercontext.jsx`), ensuring modularity and reusability.
 
 2. **Global State Management**:
    - Context API is correctly used to share the counter's state across components without prop drilling.
