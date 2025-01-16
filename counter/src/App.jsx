@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>Count is {counterState.count}</h1>
+        <h1>Current Count {counterState.count}</h1>
         <Counter />
       </div>
     </>
