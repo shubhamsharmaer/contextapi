@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>Current Count {counterState.count}</h1>
+        <h1>Current Count &#123; {counterState.count} &#125;</h1>
         <Counter />
       </div>
     </>
